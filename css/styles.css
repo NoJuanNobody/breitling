@@ -1,0 +1,50 @@
+body,html{
+    height:100%;
+    width:100%;
+}
+
+.off-canvas-wrap,.inner-wrap, .page{
+    height:100%;   
+}
+.title{
+	margin-top: 50vh;
+	background-color: rgba(255,255,255, .7);
+	margin-right: 0;
+	padding-right: 0;
+	padding-top:20px;
+	padding-bottom: 20px;
+
+}
+/*button*/
+a.button.right-off-canvas-toggle {
+background-color: grey;
+}
+/*menu*/
+.right-off-canvas-menu{
+	background-color: white;	
+}
+ul.off-canvas-list li a {
+	height: 25vh;
+	color:grey;
+	border: none;
+}
+ul.off-canvas-list li a :focus{
+	outline:none;
+}
+/*title: painting and photography*/
+h1 span {
+	font-size: 50%;
+}
+.icon{
+	font-size: 48px;
+}
+h1, h2, h3, h4, h5, h6, p {
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+}
+.move-left .exit-off-canvas {
+	box-shadow: none;	
+}
+label{
+	visibility: none;
+}
